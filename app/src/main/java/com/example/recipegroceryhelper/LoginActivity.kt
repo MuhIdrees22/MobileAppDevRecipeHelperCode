@@ -36,7 +36,11 @@ class LoginActivity : AppCompatActivity() {
                 loginUser(email, password)
             }
         }
+             signUpLink.setOnClickListener {
+            startActivity(Intent(this, SignUpActivity::class.java))
+        }
     }
+    
 
     private fun loginUser(email: String, password: String) {
         auth.signInWithEmailAndPassword(email, password)
