@@ -33,20 +33,7 @@
             </intent-filter>
         </activity>
 
-         <!-- Sign Up Screen -->
-        <activity
-            android:name=".SignUpActivity"
-            android:exported="false" />
-
-        <!-- Recipe Detail Screen -->
-        <activity
-            android:name=".RecipeDetailActivity"
-            android:exported="false" />
-
-        <activity
-            android:name=".NearbyGroceryStoresMaps"
-            android:exported="true" />
-
+       
         <!-- All other activities declared only ONCE -->
         <activity
             android:name=".MainActivity"
