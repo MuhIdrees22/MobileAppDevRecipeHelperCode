@@ -18,11 +18,7 @@
         android:theme="@style/Theme.MoblieProject"
         tools:targetApi="31">
 
-        <!-- *** THIS IS THE CORRECTED API KEY TAG *** -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAZPtrSU1cekYlXqT_-iTKYKLHVVqjp2VU" />
-
+       
         <!-- LoginActivity is the starting point of the app -->
         <activity
             android:name=".LoginActivity"
